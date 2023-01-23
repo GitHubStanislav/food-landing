@@ -83,3 +83,5 @@ window.addEventListener("DOMContentLoaded", () => {
   const modal = document.querySelector(".modal");
   const modalCloseBtn = document.querySelector("[data-close]");
 });
+
+// learn git
