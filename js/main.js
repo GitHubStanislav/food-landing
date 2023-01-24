@@ -59,7 +59,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const hours = timer.querySelector("#hours");
     const minutes = timer.querySelector("#minutes");
     const seconds = timer.querySelector("#seconds");
-    timeInterval = setInterval(updateClock, 1000);
+    const timeInterval = setInterval(updateClock, 1000);
 
     updateClock();
 
@@ -79,12 +79,17 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // modal window
 
-  const modalTrigger = document.querySelectorAll("[data-modal]");
+  const modalTrigger = document.querySelector("[data-modal]");
   const modal = document.querySelector(".modal");
   const modalCloseBtn = document.querySelector("[data-close]");
 
   modalTrigger.addEventListener("click", () => {
-    modal.classList.add("show");
-    modal.classList.remove("hide");
+    modal.style.display = "block";
+    document.body.style.overflow = "hidden";
+  });
+
+  modalCloseBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+    document.body.style.overflow = "";
   });
 });
