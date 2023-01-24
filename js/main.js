@@ -82,6 +82,9 @@ window.addEventListener("DOMContentLoaded", () => {
   const modalTrigger = document.querySelectorAll("[data-modal]");
   const modal = document.querySelector(".modal");
   const modalCloseBtn = document.querySelector("[data-close]");
-});
 
-// learn git
+  modalTrigger.addEventListener("click", () => {
+    modal.classList.add("show");
+    modal.classList.remove("hide");
+  });
+});
