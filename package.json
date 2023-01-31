@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/limserv17/food-landing/issues"
   },
-  "homepage": "https://github.com/limserv17/food-landing#readme"
+  "homepage": "https://github.com/limserv17/food-landing#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
