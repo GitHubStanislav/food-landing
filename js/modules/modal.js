@@ -4,6 +4,13 @@ function modal() {
   const modalTrigger = document.querySelectorAll("[data-modal]");
   const modal = document.querySelector(".modal");
   const modalCloseBtn = document.querySelector("[data-close]");
+  const links = document.querySelectorAll(".prevent-link");
+
+  links.forEach((e) => {
+    e.addEventListener("click", (e) => {
+      e.preventDefault();
+    });
+  });
 
   function openModal() {
     modal.style.display = "block";

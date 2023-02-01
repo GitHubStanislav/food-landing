@@ -45,10 +45,10 @@ function cards() {
   new MenuCard(
     "img/tabs/vegy.jpg",
     "vegy",
-    'Меню "Фитнес"',
-    `Меню "Фитнес" - это новый подход к приготовлению блюд: больше
-              свежих овощей и фруктов. Продукт активных и здоровых людей. Это
-              абсолютно новый продукт с оптимальной ценой и высоким качеством!`,
+    'Menu "Fitness"',
+    `Menu "Fitness" - is a new approach to cooking: more
+               fresh vegetables and fruits. Product of active and healthy people. it
+               brand new product with best price and high quality!`,
     9,
     ".menu .container",
     "menu__item"
@@ -57,10 +57,10 @@ function cards() {
   new MenuCard(
     "img/tabs/elite.jpg",
     "elite",
-    "Меню “Премиум”",
-    ` В меню “Премиум” мы используем не только красивый дизайн упаковки,
-              но и качественное исполнение блюд. Красная рыба, морепродукты,
-              фрукты - ресторанное меню без похода в ресторан!`,
+    "Menu 'Premium'",
+    ` In the Premium menu, we use not only beautiful packaging design,
+               but also the quality of the food. Red fish, seafood,
+               fruits - restaurant menu without going to a restaurant!`,
     14,
     ".menu .container",
     "menu__item"
@@ -69,11 +69,11 @@ function cards() {
   new MenuCard(
     "img/tabs/post.jpg",
     "post",
-    'Меню "Постное"',
-    `  Меню “Постное” - это тщательный подбор ингредиентов: полное
-              отсутствие продуктов животного происхождения, молоко из миндаля,
-              овса, кокоса или гречки, правильное количество белков за счет тофу
-              и импортных вегетарианских стейков.`,
+    "Lenten menu",
+    ` The Lenten menu is a careful selection of ingredients: full
+               no animal products, almond milk,
+               oats, coconut or buckwheat, the right amount of protein due to tofu
+               and imported vegetarian steaks.`,
     21,
     ".menu .container",
     "menu__item"
