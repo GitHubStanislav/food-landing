@@ -94,7 +94,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   color: $color_2;
-  &:after {
+  &:hover:after {
     content: "";
     position: absolute;
     display: block;
@@ -105,6 +105,7 @@ a {
     height: 8px;
     background: #54ed39;
   }
+
   &:last-child {
     margin-right: 0;
   }
