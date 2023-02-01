@@ -2,4 +2,8 @@
 
 ## Built With
 
-#E34F26
+:white_check_mark: HTML
+
+:white_check_mark: SCSS
+
+:white_check_mark: javaScript
