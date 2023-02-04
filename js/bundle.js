@@ -117,7 +117,7 @@ function cards() {
       this.price = price;
       this.classes = classes;
       this.parent = document.querySelector(parentSelector);
-      this.transfer = 37;
+      this.transfer = 2;
       this.changeToUAH();
     }
 
@@ -142,8 +142,8 @@ function cards() {
             </div>
             <div class="menu__item-divider"></div>
             <div class="menu__item-price">
-              <div class="menu__item-cost">Цена:</div>
-              <div class="menu__item-total"><span>${this.price}</span> грн/день</div>
+              <div class="menu__item-cost">cost:</div>
+              <div class="menu__item-total"><span>${this.price}</span> $/day</div>
             </div>
           `;
       this.parent.append(element);
